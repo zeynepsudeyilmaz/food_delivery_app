@@ -1,0 +1,324 @@
+[
+    {
+      "id": "1",
+      "name": "Hamburger",
+      "description": "Hamburger eti, küçük boy susamlı sandviç ekmeği, salatalık turşusu, hardal ve ketçaptan oluşan lezzet.",
+      "price": 210.0,
+      "category": "Yemek",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Cheeseburger.png/1200px-Cheeseburger.png"
+    },
+    {
+      "id": "2",
+      "name": "Sushi",
+      "description": "Taze balık ve sebzelerle yapılan sushi",
+      "price": 350.0,
+      "category": "Yemek",
+      "image": "https://sushidays.com.tr/media/images/press/sushidays__23122609332517036156058197097.png"
+    },
+    {
+      "id": "3",
+      "name": "Çikolatalı Pasta",
+      "description": "Çikolatalı, fıstıklı, soslu pasta",
+      "price": 650.0,
+      "category": "Tatlılar",
+      "image": "https://bagpastaneleri.com/wp-content/uploads/2022/11/fistik-cikolata-copy.png"
+    },
+    {
+      "id": "4",
+      "name": "Kek",
+      "description": "Hafif ve lezzetli kek",
+      "price": 65.0,
+      "category": "Tatlılar",
+      "image": "https://images.deliveryhero.io/image/fd-tr/Products/36166873.jpg?width=%s"
+    },
+    {
+      "id": "5",
+      "name": "Çay",
+      "description": "Taze demlenmiş çay",
+      "price": 10.0,
+      "category": "İçecekler",
+      "image": "https://www.hopadancay.com.tr/wp-content/uploads/2022/05/cay-bardagi-2.png"
+    },
+    {
+      "id": "6",
+      "name": "Limonata",
+      "description": "Taze limon ve su ile hazırlanan içecek",
+      "price": 20.0,
+      "category": "İçecekler",
+      "image": "https://hardalcaferest.dslink.co/resimler/urunler/1660573444-62fa57040a9bc.png"
+    },
+    {
+      "id": "7",
+      "name": "Pizza Margherita",
+      "description": "Taze mozzarella ve domates ile",
+      "price": 350.0,
+      "category": "Yemek",
+      "image": "https://italizzo.com/wp-content/uploads/2020/05/Margeritha.png"
+    },
+    {
+      "id": "8",
+      "name": "Kahve",
+      "description": "Taze çekilmiş kahve",
+      "price": 50.0,
+      "category": "İçecekler",
+      "image": "https://www.arabaga.com.tr/images/fincan.png"
+    },
+    {
+      "id": "9",
+      "name": "Adana Kebap",
+      "description": "Acılı kıymadan yapılan ızgara kebap.",
+      "price": 400.0,
+      "image": "https://images.deliveryhero.io/image/fd-tr/Products/28092520.jpg?width=%s",
+      "category": "Yemek"
+    },
+    {
+    "id": "10",
+    "name": "Lahmacun",
+    "description": "İnce hamur üzerine kıymalı harç, fırında pişirilmiş.",
+    "price": 150.0,
+    "image": "https://www.ustapideci.com.tr/cmsfiles/products/lahmacun.png?v=46",
+    "category": "Yemek"
+  },
+  {
+    "id": "11",
+    "name": "Izgara Balık",
+    "description": "Taze ızgara balık, sebzelerle servis edilir.",
+    "price": 260.0,
+    "image": "https://www.sandalbalikekmek.com/wp-content/uploads/cipura-porsiyon-600x600.png",
+    "category": "Yemek"
+  },
+  {
+    "id": "12",
+    "name": "Mantı",
+    "description": "Lezzetli sosu ile.",
+    "price": 80.0,
+    "image": "https://mantici.com/wp-content/uploads/2022/05/Manti-Gold-Tabak-Az-Baharatli.png",
+    "category": "Yemek"
+  },
+  {
+    "id": "13",
+    "name": "İskender",
+    "description": "Döner, yoğurt, sos ve tereyağ ile.",
+    "price": 150.0,
+    "image": "https://www.iskender.com.tr/images/bu-tabak-hic-bitmesin.png",
+    "category": "Yemek"
+  },
+  {
+    "id": "14",
+    "name": "Karnıyarık",
+    "description": "Patlıcan içerisinde kıyma ve sebzelerle yapılan müthiş lezzet.",
+    "price": 50.0,
+    "image": "https://lokantacila.com.tr/wp-content/uploads/2022/05/karniyarik-1.png",
+    "category": "Yemek"
+  },
+  {
+    "id": "15",
+    "name": "Hünkar Beğendi",
+    "description": "Közlenmiş patlıcanlar ve leziz kaşar peynirleriyle hazırladığımız enfes tabak.",
+    "price": 55.0,
+    "image": "https://sufirestoran.com.tr/wp-content/uploads/2024/09/hunkar-begendi-1-1024x1014.png",
+    "category": "Yemek"
+  },
+  {
+    "id": "16",
+    "name": "Patates Kızartması",
+    "description": "Altın sarısı, çıtır çıtır patates kızartması.",
+    "price": 65.0,
+    "image": "https://www.sandalbalikekmek.com/wp-content/uploads/patates-kizartmasi-600x600.png",
+    "category": "Atıştırmalıklar"
+  },
+  {
+    "id": "17",
+    "name": "Simit",
+    "description": "Susamla kaplanmış, çıtır simit.",
+    "price": 15.0,
+    "image": "https://static.ticimax.cloud/cdn-cgi/image/width=-,quality=85/32584/uploads/urunresimleri/buyuk/mayali-hane-glutensiz-simit-2x100-gr-596413.png",
+    "category": "Atıştırmalıklar"
+  },
+  {
+    "id": "18",
+    "name": "Mozzarella Sticks",
+    "description": "Çıtır kaplamalı, erimiş mozzarella peynirli çubuklar.",
+    "price": 80.0,
+    "image": "https://montethemeatman.com/cdn/shop/products/401_BWW_App_Food_Images__0019_MozzarellaSticks_Shareables_QU_06132016_10312016_1024x1024@2x.png?v=1506198149",
+    "category": "Atıştırmalıklar"
+  },
+  {
+    "id": "19",
+    "name": "Sigara Böreği",
+    "description": "Peynirli ve incecik yufka ile sarılıp kızartılmış börek.",
+    "price": 20.0,
+    "image": "https://www.tattaze.com.tr/wp-content/uploads/2022/11/sigara-boregi-tattaze.png",
+    "category": "Atıştırmalıklar"
+  },
+  {
+    "id": "20",
+    "name": "Cips",
+    "description": "Klasik patates cipsi.",
+    "price": 30.0,
+    "image": "https://www.gurmar.com.tr/images/thumbs/0012008_cerezza-dev-misir-cerezi-150-gr_360.png",
+    "category": "Atıştırmalıklar"
+  },
+  {
+    "id": "21",
+    "name": "Elma Dilim Patates",
+    "description": "Kalın dilimlenmiş, fırında pişirilmiş patates.",
+    "price": 65.0,
+    "image": "https://goldentarimsal.com.tr/dacegug/2023/09/Elma-Dilim.png",
+    "category": "Atıştırmalıklar"
+  },
+  {
+    "id": "22",
+    "name": "Kumpir",
+    "description": "Fırında pişmiş patates, çeşitli malzemeler ile.",
+    "price": 105.0,
+    "image": "https://www.keyfikumpir.com/wp-content/uploads/2024/06/IMG_0100.png",
+    "category": "Atıştırmalıklar"
+  },
+  {
+    "id": "23",
+    "name": "Tost",
+    "description": "Kaşarlı ve sucuklu klasik tost.",
+    "price": 75.0,
+    "image": "https://suadiyemarmaris.com.tr/wp-content/uploads/2022/12/kasarli-sucuklu-tost-2.png",
+    "category": "Atıştırmalıklar"
+  },
+  {
+    "id": "24",
+    "name": "Paçanga Böreği",
+    "description": "Sucuk ve peynirle yapılan çıtır börek.",
+    "price": 70.0,
+    "image": "https://images.deliveryhero.io/image/fd-tr/Products/35055044.jpg?width=%s",
+    "category": "Atıştırmalıklar"
+  },
+  {
+    "id": "25",
+    "name": "Çıtır Tavuk",
+    "description": "Baharatlı çıtır tavuk parçaları.",
+    "price": 130.0,
+    "image": "https://www.tavukdunyasi.com/media/d5icdq1f/citir-tavuk-kupleri-detay.png?format=webp",
+    "category": "Atıştırmalıklar"
+  },
+  {
+    "id": "26",
+    "name": "Baklava",
+    "description": "Yufka, ceviz ve şerbetle yapılan enfes tatlı.",
+    "price": 80.0,
+    "image": "https://www.dedeoglu.com.tr/wp-content/uploads/2021/10/Fistikli-Kuru-Baklava-600x600.png",
+    "category": "Tatlılar"
+  },
+  {
+    "id": "27",
+    "name": "Sütlaç",
+    "description": "Fırında pişirilmiş sütlü pirinç tatlısı.",
+    "price": 180.0,
+    "image": "https://alikestaneci.com/image/cache/catalog/urunler/tatl%C4%B1lar/firinsutlac-637x637.png",
+    "category": "Tatlılar"
+  },
+  {
+    "id": "28",
+    "name": "Künefe",
+    "description": "Peynirli şerbetli tatlı, çıtır kadayıf ile yapılmış.",
+    "price": 240.0,
+    "image": "https://www.sbarro.com.tr/cmsfiles/categories/kunefe.png?v=101",
+    "category": "Tatlılar"
+  },
+  {
+    "id": "29",
+    "name": "Profiterol",
+    "description": "Çikolata sosu ile kaplanmış krema dolgulu hamur tatlısı.",
+    "price": 130.0,
+    "image": "https://www.beyogluprofiterol.com/images/mansetler/beyoglu-profiterol-dukkani-acmak-1.png",
+    "category": "Tatlılar"
+  },
+  {
+    "id": "30",
+    "name": "Cheesecake",
+    "description": "Krem peynirli hafif bir tatlı.",
+    "price": 135.0,
+    "image": "https://www.milkacademy.com.tr/wp-content/uploads/2019/11/cheesecake.png",
+    "category": "Tatlılar"
+  },
+  {
+    "id": "31",
+    "name": "Tiramisu",
+    "description": "Kahve ile ıslatılmış bisküvi ve mascarpone peynirli tatlı.",
+    "price": 132.0,
+    "image": "https://www.bigcoffeehouse.com.tr/images/urunler/buyuk/tatli-tiramisu1611508135_1.png",
+    "category": "Tatlılar"
+  },
+  
+  {
+    "id": "32",
+    "name": "Revani",
+    "description": "İrmik tatlısı, şerbetle tatlandırılmış.",
+    "price": 120.0,
+    "image": "https://gaziburmamustafa.com/wp-content/uploads/2020/06/Gaziburma-Revani-Tatl%C4%B1s%C4%B1-1200x900.png",
+    "category": "Tatlılar"
+  },
+  {
+    "id": "33",
+    "name": "Güllaç",
+    "description": "Ramazan tatlısı, süt ve cevizle yapılan hafif tatlı.",
+    "price": 130.0,
+    "image": "https://bagpastaneleri.com/wp-content/uploads/2022/11/gullacv2.png",
+    "category": "Tatlılar"
+  },
+  {
+    "id": "34",
+    "name": "Ayran",
+    "description": "Buz gibi soğuk içecek.",
+    "price": 15.0,
+    "image": "https://www.sutas.com.tr/assets/uploads/product-detail/Ayran_200ml.png",
+    "category": "İçecekler"
+  },
+  {
+    "id": "35",
+    "name": "Gazoz",
+    "description": "Gazlı ve şekerli serinletici içecek.",
+    "price": 18.0,
+    "image": "https://cms.fresa.com.tr/tr.com.fresa.v1/fresa_gazoz_01.png",
+    "category": "İçecekler"
+  },
+  {
+    "id": "36",
+    "name": "Soda",
+    "description": "Maden suyu, serinletici gazlı içecek.",
+    "price": 6.0,
+    "image": "https://siparis.ardenfc.com/ShowImage/6315?isThumbnail=false",
+    "category": "İçecekler"
+  },
+   {
+    "id": "37",
+    "name": "Sıcak Çikolata",
+    "description": "Çikolata ile yapılmış sıcak içecek.",
+    "price": 20.0,
+    "image": "https://altincezvegida.com/wp-content/uploads/2022/03/sicak-cikolata-fincan-300x278.png",
+    "category": "İçecekler"
+  },
+  {
+    "id": "38",
+    "name": "Buzlu Çay",
+    "description": "Soğuk demlenmiş, şekerli buzlu çay.",
+    "price": 20.0,
+    "image": "https://img-bizimtoptan.mncdn.com/Content/Images/Thumbs/2895160.png",
+    "category": "İçecekler"
+  },
+  {
+    "id": "39",
+    "name": "Meyve Suyu",
+    "description": "Mangolu meyve suyu.",
+    "price": 12.0,
+    "image": "https://www.narinnaturel.com.tr/wp-content/uploads/2021/02/Seles-Mango-Meyve-Suyu.png",
+    "category": "İçecekler"
+  },
+  {
+    "id": "40",
+    "name": "Meyve Suyu",
+    "description": "Portakallı meyve suyu.",
+    "price": 12.0,
+    "image": "https://www.narinnaturel.com.tr/wp-content/uploads/2021/02/4.png",
+    "category": "İçecekler"
+  }
+]
+
