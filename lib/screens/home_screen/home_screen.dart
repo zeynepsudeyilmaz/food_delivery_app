@@ -14,6 +14,7 @@ import '../../functions/food_functions.dart';
 import '../../models/cart_item.dart';
 import '../../models/category_model.dart';
 import '../../utils/app_colors.dart';
+import '../menu_screen/snacks.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -101,6 +102,9 @@ class _HomePageState extends State<HomePage> {
                   categories: categories,
                   onCategorySelected: (Category selectedCategory) {
                     filterfoods(selectedCategory);
+                    setState(() {
+                      this.selectedCategory = selectedCategory;
+                    });
                   },
                 ),
                 Padding(
@@ -112,6 +116,15 @@ class _HomePageState extends State<HomePage> {
                         if (selectedCategory != null) {
                           categoryFunctions.gotoCategory(
                               context, selectedCategory!.name);
+                        } else {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                              builder: (context) => SnacksPage(
+                                displayedFoods: [],
+                              ),
+                            ),
+                          );
                         }
                       },
                       child: Text(
